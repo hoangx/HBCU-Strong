@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="xmh-sM-EmC">
+            <objects>
+                <viewController id="ywf-YJ-r9z" customClass="HomeViewController" customModule="HBCU_Strong" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MiJ-TU-TxM"/>
+                        <viewControllerLayoutGuide type="bottom" id="UZa-bo-H7W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0cV-Fd-lJV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="een-bg-g9h"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tT2-SH-yKS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1695" y="918"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eDu-Jy-K46">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationHome" automaticallyAdjustsScrollViewInsets="NO" id="ins-qu-MMO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="Home1x" selectedImage="Home_Selected1x" id="Ukx-C0-Wyw">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZMZ-IJ-R6U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ywf-YJ-r9z" kind="relationship" relationship="rootViewController" id="gSp-HE-kwn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1JY-qd-zfg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1694" y="92"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Home1x" width="29" height="29"/>
+        <image name="Home_Selected1x" width="29" height="29"/>
+    </resources>
+</document>

@@ -1,5 +1,5 @@
 //
-//  SignInViewController.swift
+//  HomeViewController.swift
 //  HBCU_Strong
 //
 //  Created by Tommy Hoang on 5/28/17.
@@ -8,15 +8,13 @@
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class HomeViewController: UIViewController {
 
-    @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+    
 }

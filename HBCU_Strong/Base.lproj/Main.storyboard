@@ -63,10 +63,17 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="drn-ry-oF3" kind="presentation" id="HPT-An-ZjS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="Nqa-jf-mHl" id="Rtq-Hd-zLZ"/>
+                        <outlet property="passwordTextField" destination="fW6-M8-j8X" id="y63-B2-Hyd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,14 +145,32 @@
                                 <state key="normal" title="Register">
                                     <color key="titleColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="drn-ry-oF3" kind="presentation" id="Jnf-Ht-BCq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="uzO-zx-VqB" id="ORH-co-NNC"/>
+                        <outlet property="fullnameTextField" destination="zCl-uA-SbV" id="K7G-ij-eN1"/>
+                        <outlet property="passwordTextField" destination="UCc-3A-jnT" id="3eX-BO-olc"/>
+                        <outlet property="profileImage" destination="oNp-rk-UC0" id="2A4-5T-4Bb"/>
+                        <outlet property="usernameTextField" destination="K7d-nC-ZgA" id="5wN-ug-JUj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0yq-gH-GKI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="799" y="37"/>
+            <point key="canvasLocation" x="33" y="773"/>
+        </scene>
+        <!--TabBarID-->
+        <scene sceneID="rVf-Zq-ruW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="My" referencedIdentifier="TabBarID" id="drn-ry-oF3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KLg-oa-0Dl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1651" y="15"/>
         </scene>
     </scenes>
     <resources>
@@ -154,4 +179,7 @@
         <image name="bg" width="1461" height="1667"/>
         <image name="logo" width="1257" height="187"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Jnf-Ht-BCq"/>
+    </inferredMetricsTieBreakers>
 </document>

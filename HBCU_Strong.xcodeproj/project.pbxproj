@@ -14,6 +14,17 @@
 		25E74C0B1EDAF13800AF4CC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25E74C0A1EDAF13800AF4CC9 /* GoogleService-Info.plist */; };
 		25E74C0D1EDAF25600AF4CC9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E74C0C1EDAF25600AF4CC9 /* SignUpViewController.swift */; };
 		25E74C0F1EDAF26500AF4CC9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E74C0E1EDAF26500AF4CC9 /* SignInViewController.swift */; };
+		25E94E561EDB08BD0090348C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E94E551EDB08BD0090348C /* HomeViewController.swift */; };
+		25E94E581EDB08C80090348C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E94E571EDB08C80090348C /* ProfileViewController.swift */; };
+		25E94E5A1EDB08D60090348C /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E94E591EDB08D60090348C /* ActivityViewController.swift */; };
+		25E94E5C1EDB08DD0090348C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E94E5B1EDB08DD0090348C /* SearchViewController.swift */; };
+		25E94E5E1EDB08E50090348C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E94E5D1EDB08E50090348C /* CameraViewController.swift */; };
+		25E94E641EDB0E4C0090348C /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E94E621EDB0E4C0090348C /* My.storyboard */; };
+		25E94E661EDB0FE90090348C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E94E651EDB0FE90090348C /* Home.storyboard */; };
+		25E94E691EDB10040090348C /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E94E671EDB10040090348C /* Search.storyboard */; };
+		25E94E6B1EDB10160090348C /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E94E6A1EDB10160090348C /* Camera.storyboard */; };
+		25E94E6E1EDB10280090348C /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E94E6C1EDB10280090348C /* Activity.storyboard */; };
+		25E94E701EDB10360090348C /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E94E6F1EDB10360090348C /* Profile.storyboard */; };
 		DF1A31D0693307BA1B5184AC /* Pods_HBCU_Strong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CCC67633C040404F6281DF /* Pods_HBCU_Strong.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +38,17 @@
 		25E74C0A1EDAF13800AF4CC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		25E74C0C1EDAF25600AF4CC9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		25E74C0E1EDAF26500AF4CC9 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		25E94E551EDB08BD0090348C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		25E94E571EDB08C80090348C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		25E94E591EDB08D60090348C /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		25E94E5B1EDB08DD0090348C /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		25E94E5D1EDB08E50090348C /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		25E94E631EDB0E4C0090348C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/My.storyboard; sourceTree = "<group>"; };
+		25E94E651EDB0FE90090348C /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		25E94E681EDB10040090348C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Search.storyboard; sourceTree = "<group>"; };
+		25E94E6A1EDB10160090348C /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		25E94E6D1EDB10280090348C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Activity.storyboard; sourceTree = "<group>"; };
+		25E94E6F1EDB10360090348C /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		D2CCF441015E462383175A60 /* Pods-HBCU_Strong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBCU_Strong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBCU_Strong/Pods-HBCU_Strong.debug.xcconfig"; sourceTree = "<group>"; };
 		E7FA194B83584C697AD1A470 /* Pods-HBCU_Strong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBCU_Strong.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBCU_Strong/Pods-HBCU_Strong.release.xcconfig"; sourceTree = "<group>"; };
 		E8CCC67633C040404F6281DF /* Pods_HBCU_Strong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBCU_Strong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,15 +88,42 @@
 			isa = PBXGroup;
 			children = (
 				25E74BF81EDAF0F500AF4CC9 /* AppDelegate.swift */,
-				25E74BFC1EDAF0F500AF4CC9 /* Main.storyboard */,
+				25E94E711EDB10CE0090348C /* Storyboards */,
 				25E74BFF1EDAF0F500AF4CC9 /* Assets.xcassets */,
 				25E74C011EDAF0F500AF4CC9 /* LaunchScreen.storyboard */,
 				25E74C041EDAF0F500AF4CC9 /* Info.plist */,
 				25E74C0A1EDAF13800AF4CC9 /* GoogleService-Info.plist */,
-				25E74C0C1EDAF25600AF4CC9 /* SignUpViewController.swift */,
-				25E74C0E1EDAF26500AF4CC9 /* SignInViewController.swift */,
+				25E94E5F1EDB09A30090348C /* ViewControllers */,
 			);
 			path = HBCU_Strong;
+			sourceTree = "<group>";
+		};
+		25E94E5F1EDB09A30090348C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				25E74C0C1EDAF25600AF4CC9 /* SignUpViewController.swift */,
+				25E74C0E1EDAF26500AF4CC9 /* SignInViewController.swift */,
+				25E94E551EDB08BD0090348C /* HomeViewController.swift */,
+				25E94E571EDB08C80090348C /* ProfileViewController.swift */,
+				25E94E591EDB08D60090348C /* ActivityViewController.swift */,
+				25E94E5B1EDB08DD0090348C /* SearchViewController.swift */,
+				25E94E5D1EDB08E50090348C /* CameraViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		25E94E711EDB10CE0090348C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				25E74BFC1EDAF0F500AF4CC9 /* Main.storyboard */,
+				25E94E621EDB0E4C0090348C /* My.storyboard */,
+				25E94E6F1EDB10360090348C /* Profile.storyboard */,
+				25E94E6C1EDB10280090348C /* Activity.storyboard */,
+				25E94E6A1EDB10160090348C /* Camera.storyboard */,
+				25E94E671EDB10040090348C /* Search.storyboard */,
+				25E94E651EDB0FE90090348C /* Home.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 		78A2C9B9C41EDED950DCD6E0 /* Frameworks */ = {
@@ -158,8 +207,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				25E74C031EDAF0F500AF4CC9 /* LaunchScreen.storyboard in Resources */,
+				25E94E6E1EDB10280090348C /* Activity.storyboard in Resources */,
+				25E94E701EDB10360090348C /* Profile.storyboard in Resources */,
+				25E94E6B1EDB10160090348C /* Camera.storyboard in Resources */,
 				25E74C0B1EDAF13800AF4CC9 /* GoogleService-Info.plist in Resources */,
 				25E74C001EDAF0F500AF4CC9 /* Assets.xcassets in Resources */,
+				25E94E661EDB0FE90090348C /* Home.storyboard in Resources */,
+				25E94E691EDB10040090348C /* Search.storyboard in Resources */,
+				25E94E641EDB0E4C0090348C /* My.storyboard in Resources */,
 				25E74BFE1EDAF0F500AF4CC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				25E74C0F1EDAF26500AF4CC9 /* SignInViewController.swift in Sources */,
+				25E94E5C1EDB08DD0090348C /* SearchViewController.swift in Sources */,
+				25E94E5A1EDB08D60090348C /* ActivityViewController.swift in Sources */,
 				25E74C0D1EDAF25600AF4CC9 /* SignUpViewController.swift in Sources */,
+				25E94E581EDB08C80090348C /* ProfileViewController.swift in Sources */,
+				25E94E5E1EDB08E50090348C /* CameraViewController.swift in Sources */,
 				25E74BF91EDAF0F500AF4CC9 /* AppDelegate.swift in Sources */,
+				25E94E561EDB08BD0090348C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +302,30 @@
 				25E74C021EDAF0F500AF4CC9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		25E94E621EDB0E4C0090348C /* My.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E94E631EDB0E4C0090348C /* Base */,
+			);
+			name = My.storyboard;
+			sourceTree = "<group>";
+		};
+		25E94E671EDB10040090348C /* Search.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E94E681EDB10040090348C /* Base */,
+			);
+			name = Search.storyboard;
+			sourceTree = "<group>";
+		};
+		25E94E6C1EDB10280090348C /* Activity.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E94E6D1EDB10280090348C /* Base */,
+			);
+			name = Activity.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
