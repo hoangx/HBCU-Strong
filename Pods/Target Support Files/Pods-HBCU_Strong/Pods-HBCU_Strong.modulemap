@@ -1,0 +1,6 @@
+framework module Pods_HBCU_Strong {
+  umbrella header "Pods-HBCU_Strong-umbrella.h"
+
+  export *
+  module * { export * }
+}
