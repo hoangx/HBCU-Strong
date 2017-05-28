@@ -7,4 +7,6 @@ target 'HBCU_Strong' do
 
   # Pods for HBCU_Strong
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 end

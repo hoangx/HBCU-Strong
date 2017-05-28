@@ -146,7 +146,7 @@
                                     <color key="titleColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="drn-ry-oF3" kind="presentation" id="Jnf-Ht-BCq"/>
+                                    <action selector="signUpBtn_TouchUpInside:" destination="qn9-1D-PKE" eventType="touchUpInside" id="Fhf-7Z-cX8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -179,7 +179,4 @@
         <image name="bg" width="1461" height="1667"/>
         <image name="logo" width="1257" height="187"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="Jnf-Ht-BCq"/>
-    </inferredMetricsTieBreakers>
 </document>
