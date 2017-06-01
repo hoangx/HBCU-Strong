@@ -88,12 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				25E74BF81EDAF0F500AF4CC9 /* AppDelegate.swift */,
-				25E94E711EDB10CE0090348C /* Storyboards */,
 				25E74BFF1EDAF0F500AF4CC9 /* Assets.xcassets */,
+				25E94E711EDB10CE0090348C /* Storyboards */,
+				25E94E5F1EDB09A30090348C /* ViewControllers */,
 				25E74C011EDAF0F500AF4CC9 /* LaunchScreen.storyboard */,
 				25E74C041EDAF0F500AF4CC9 /* Info.plist */,
 				25E74C0A1EDAF13800AF4CC9 /* GoogleService-Info.plist */,
-				25E94E5F1EDB09A30090348C /* ViewControllers */,
 			);
 			path = HBCU_Strong;
 			sourceTree = "<group>";

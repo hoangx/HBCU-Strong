@@ -9,6 +9,7 @@
 import UIKit
 import FirebaseAuth
 import FirebaseDatabase
+import FirebaseStorage
 
 class SignUpViewController: UIViewController {
 
@@ -24,29 +25,42 @@ class SignUpViewController: UIViewController {
         //Profile image have round corners
         profileImage.layer.cornerRadius=40
         profileImage.clipsToBounds=true
+        /*
+         UITapGestureRecognizer(target: self, action: #selector(SignUpViewController.handleSelectProfileImageView))
+        profileImage.addGestureRecognizer(<#T##gestureRecognizer: UIGestureRecognizer##UIGestureRecognizer#>)
+         */
     }
     
-  
+    func handleSelectProfileImageView(){
+        
+    }
     
     @IBAction func dismiss_OnClick(_ sender: Any) { (dismiss(animated: true, completion: nil))
     }
 
     @IBAction func signUpBtn_TouchUpInside(_ sender: Any) {
         
-       Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!,completion: {(user: User, error:Error!) in
+        Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!,completion: ({(user: User, error:Error!) in
             if error != nil{
                 print(error.localizedDescription)
                 return
             }
-        let ref = Database.database().reference()
-        let usersReference = ref.child("user")
-        //print(usersReference.description()) : https://hbcustrong-e587c.firebaseio.com/users
-        let uid = user.uid
-        let newUserReference = usersReference.child(uid)
-        newUserReference.setValue(["username" : self.usernameTextField.text!, "email" : self.emailTextField.text!])
-        print(" description: \(newUserReference.description)()")
-        })
+            let ref = Database.database().reference()
+            let usersReference = ref.child("user")
+            //print(usersReference.description()) : https://hbcustrong-e587c.firebaseio.com/users
+            let uid = user.uid
+            let newUserReference = usersReference.child(uid)
+            newUserReference.setValue(["username" : self.usernameTextField.text!, "email" : self.emailTextField.text!])
+            print(" description: \(newUserReference.description)()")
+            } as! AuthResultCallback))
         
     }
     
+}
+
+extension SignUpViewController: UIPickerViewDelegate, UINavigationControllerDelegate{
+    
+    //func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: String : Any]){
+        
+   // }
 }
